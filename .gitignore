@@ -111,3 +111,6 @@ venv.bak/
 ~*.xls
 ~*.pptx
 ~*.ppt
+
+# really large data files
+data/external/glove
