@@ -102,3 +102,12 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+.Rproj.user
+
+# windows office temp files
+~*.docx
+~*.doc
+~*.xlsx
+~*.xls
+~*.pptx
+~*.ppt
