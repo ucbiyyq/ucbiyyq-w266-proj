@@ -7,7 +7,7 @@ library(readr)
 library(janitor)
 library(ggplot2)
 
-p_po <- here::here("data", "external", "ca-po", "PURCHASE ORDER DATA EXTRACT 2012-2015 CLEANED.csv")
+p_po <- here::here("data", "external", "ca-po", "PURCHASE_ORDER_DATA_EXTRACT_2012-2015_CLEANED.zip")
 
 po <- read_csv(p_po, col_types = cols(.default = "c")) %>% 
     clean_names()
