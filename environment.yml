@@ -1,14 +1,12 @@
 name: w266
 channels:
-  - anaconda
   - conda-forge
+  - anaconda
   - defaults
 dependencies:
   - attrs=19.1.0=py37_1
   - backcall=0.1.0=py37_0
   - bleach=3.1.0=py37_0
-  - ca-certificates=2019.5.15=0
-  - certifi=2019.6.16=py37_0
   - decorator=4.4.0=py37_1
   - defusedxml=0.6.0=py_0
   - entrypoints=0.3=py37_0
@@ -35,7 +33,6 @@ dependencies:
   - nbformat=4.4.0=py37_0
   - nltk=3.4.4=py37_0
   - notebook=6.0.0=py37_0
-  - openssl=1.1.1=h7b6447c_0
   - pandas=0.24.2=py37he6710b0_0
   - pandoc=2.2.3.2=0
   - pandocfilters=1.4.2=py37_1
@@ -68,6 +65,8 @@ dependencies:
   - astor=0.7.1=py_0
   - bzip2=1.0.8=h516909a_0
   - c-ares=1.15.0=h516909a_1001
+  - ca-certificates=2019.6.16=hecc5488_0
+  - certifi=2019.6.16=py37_1
   - cycler=0.10.0=py_1
   - dbus=1.13.6=he372182_0
   - fontconfig=2.13.1=h86ecdb6_1001
@@ -83,6 +82,7 @@ dependencies:
   - h5py=2.9.0=nompi_py37hf008753_1102
   - hdf5=1.10.4=nompi_h3c11f04_1106
   - icu=64.2=he1b5a44_0
+  - joblib=0.13.2=py_0
   - jpeg=9c=h14c3975_1001
   - keras=2.2.4=py37_1
   - keras-applications=1.0.7=py_1
@@ -106,13 +106,17 @@ dependencies:
   - ncurses=6.1=hf484d3e_1002
   - numpy=1.16.4=py37h95a1406_0
   - openblas=0.3.6=h6e990d7_5
+  - openssl=1.1.1c=h516909a_0
+  - pandas-flavor=0.1.2=py_0
   - pip=19.2.1=py37_0
   - protobuf=3.9.0=py37he1b5a44_0
   - pygpu=0.7.6=py37h3010b51_1000
+  - pyjanitor=0.18.0=py_0
   - pyparsing=2.4.1.1=py_0
   - pyyaml=5.1.1=py37h516909a_0
   - qt=5.9.7=h0c104cb_3
   - readline=7.0=hf8c457e_1001
+  - scikit-learn=0.21.3=py37hcdab131_0
   - scipy=1.3.0=py37h921218d_1
   - setuptools=41.0.1=py37_0
   - six=1.12.0=py37_1000
