@@ -115,5 +115,6 @@ venv.bak/
 # really large data files
 data/external/glove
 data/external/newshroup
+data/external/omniglot
 data/interim
 
