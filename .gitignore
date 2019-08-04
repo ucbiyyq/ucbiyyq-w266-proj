@@ -116,5 +116,6 @@ venv.bak/
 data/external/glove
 data/external/newshroup
 data/external/omniglot
+data/external/quora
 data/interim
 
